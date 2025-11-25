@@ -1,0 +1,47 @@
+.thankyou-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px); /* Adjust for Navbar height */
+  background: linear-gradient(to bottom right, #f7faff, #e6f0ff);
+}
+
+.thankyou-card {
+  background: white;
+  padding: 40px;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.app-id {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.thankyou-card h1 {
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.thankyou-card p {
+  font-size: 1rem;
+  color: #444;
+  margin: 10px 0;
+}
+
+.home-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #003366;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.home-btn:hover {
+  background-color: #002244;
+}
